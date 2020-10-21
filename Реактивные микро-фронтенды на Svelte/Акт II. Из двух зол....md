@@ -1,33 +1,4 @@
-<style>
-  p[data-item="text"] {
-    text-indent: 2em;
-    text-align: justify;
-  }
-
-  div[data-item="container"] {
-    display: flex;
-    flex-direction: column;
-    max-width: 1024px;
-    justify-content: center;
-  }
-
-  span[data-item="caption"] {
-    font-size: 11px;
-    opacity: 0.8;
-    text-align: right;
-    width: 100%;
-    position: relative;
-    top: -12px;
-  }
-
-  p[data-item="list"] {
-    text-align: left;
-  }
-
-  span[data-item="highlight"] {
-    color: #ffe5b4;
-  }
-</style>
+<link href="./style.css" rel="stylesheet"></link>
 
 <div data-item="container">
 
