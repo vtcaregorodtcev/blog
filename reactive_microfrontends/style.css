@@ -3,7 +3,7 @@ html {
 }
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(16px + (70 - 16) * ((100vw - 300px) / (1600 - 300)));
   }
 }
 @media screen and (min-width: 1000px) {
@@ -29,15 +29,15 @@ h3 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: calc(16px + (90 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h2 {
-  font-size: 28px;
+  font-size: calc(16px + (70 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h3 {
-  font-size: 20px;
+  font-size: calc(16px + (50 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 p {
@@ -73,7 +73,7 @@ img {
 }
 
 span[data-item="caption"] {
-  font-size: calc((16px + 6 * ((100vw - 320px) / 680)) / 1.5);
+  font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
   opacity: 0.8;
   text-align: center;
   width: 800px;
