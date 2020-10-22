@@ -85,8 +85,18 @@ img {
   margin: auto;
 }
 
+@media screen and (min-width: 320px) {
+  span[data-item="caption"] {
+    font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
+  }
+}
+@media screen and (min-width: 1000px) {
+  span[data-item="caption"] {
+    font-size: 16px;
+  }
+}
+
 span[data-item="caption"] {
-  font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
   opacity: 0.8;
   text-align: center;
   width: 800px;
