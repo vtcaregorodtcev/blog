@@ -29,9 +29,9 @@ self.addEventListener('fetch', function (event) {
                 // If you have some build process for your site, perhaps that could
                 // generate the list of possible URLs that a user might load.
                 '/', // do not remove this
-                '/act_1.html', //default
-                '/act_2.html', //default
-                '/act_3.html', //default
+                '/act_1/index.html', //default
+                '/act_2/index.html', //default
+                '/act_3/index.html', //default
                 '/style.css',// configure as by your site ; just an example
                 '/assets/*',
               ]);
