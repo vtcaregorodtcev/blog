@@ -5,5 +5,5 @@
   "background_color": "#ffffff",
   "display": "browser",
   "scope": "/",
-  "start_url": "/blog/reactive_microfrontends/act_3"
+  "start_url": "/blog/reactive_microfrontends/act_3/index.html"
 }
