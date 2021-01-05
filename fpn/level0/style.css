@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + (70 - 16) * ((100vw - 300px) / (3000 - 300)));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+    width: 900px;
+    margin: auto;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  line-height: 1.8;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.35em;
+}
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: calc(16px + (190 - 16) * ((100vw - 300px) / (3000 - 300)));
+  }
+
+  h2 {
+    font-size: calc(16px + (130 - 16) * ((100vw - 300px) / (3000 - 300)));
+  }
+
+  h3 {
+    font-size: calc(16px + (70 - 16) * ((100vw - 300px) / (3000 - 300)));
+  }
+}
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+}
+
+p {
+  margin: 0 0 1.15em;
+}
+
+p + h2 {
+  margin-top: 1.5em;
+}
+
+p[data-item="text"] {
+  text-indent: 2em;
+}
+
+div[data-item="container"] {
+  padding: 16px 20px;
+  width: calc(100% - 40px);
+}
+
+a {
+  color: #333;
+}
+
+a:active {
+  color: #fdd54c;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  span[data-item="caption"],
+  p[data-item="details"],
+  pre {
+    font-size: 13px !important;
+  }
+}
+@media screen and (min-width: 1000px) {
+  span[data-item="caption"],
+  pre,
+  p[data-item="details"] {
+    font-size: 16px !important;
+  }
+}
+
+span[data-item="caption"],
+p[data-item="details"] {
+  opacity: 0.8;
+  text-align: center;
+  max-width: 100%;
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  display: block;
+  text-align: center;
+}
+
+pre[class*="language-"] {
+  padding: 0 2em !important;
+}
+
+p[data-item="details"] {
+  text-align: justify;
+  padding-left: 30%;
+}
+
+p[data-item="list"] {
+  text-align: left;
+}
+
+span[data-item="highlight"] {
+  color: #b53a15;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+li {
+  text-indent: 2em;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.intro-img {
+  margin-bottom: -20px;
+}
